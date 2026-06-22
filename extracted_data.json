@@ -1,0 +1,27 @@
+{
+    "rules": [],
+    "decisions": [
+        {
+            "id": "arch-2026-03-08",
+            "description": "Added \"Delivery Route\" field to the Orders table.",
+            "reasoning": "N/A"
+        },
+        {
+            "id": "email-service",
+            "description": "Use SendGrid for email notification system.",
+            "reasoning": "N/A"
+        },
+        {
+            "id": "secrets-api-keys",
+            "description": "API keys and sensitive tokens must NEVER be hardcoded.",
+            "reasoning": "N/A"
+        }
+    ],
+    "open_bugs": [
+        {
+            "id": "bug-order-email",
+            "description": "Order confirmation emails are sometimes sent twice to the same customer.",
+            "status": "Unresolved"
+        }
+    ]
+}
